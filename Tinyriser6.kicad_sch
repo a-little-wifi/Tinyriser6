@@ -10336,7 +10336,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -10350,8 +10350,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10376,7 +10376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10403,7 +10403,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -10439,13 +10450,24 @@
 				)
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -3.81)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -10582,6 +10604,42 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11125,6 +11183,187 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12955,6 +13194,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 52.07) (xy 208.28 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8159af-917f-47a5-84c0-240015b0411e")
+	)
+	(wire
+		(pts
 			(xy 365.76 34.29) (xy 368.3 34.29)
 		)
 		(stroke
@@ -13872,6 +14121,16 @@
 			(type default)
 		)
 		(uuid "847fad41-dee4-4552-958f-739f5853335a")
+	)
+	(wire
+		(pts
+			(xy 193.04 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ab3e66-1c8d-4ab8-8083-d0d09d58cc79")
 	)
 	(wire
 		(pts
@@ -16955,6 +17214,28 @@
 			)
 		)
 	)
+	(global_label "SMBDATA"
+		(shape input)
+		(at 193.04 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7303b87f-7113-4fc3-8edb-0e341bd3b70b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.7091 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+12V_fan"
 		(shape input)
 		(at 222.25 20.32 0)
@@ -17606,6 +17887,28 @@
 		(uuid "b62931af-13e5-4156-9d68-72defb5dec64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1019 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMBCLK"
+		(shape input)
+		(at 210.82 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b717a936-be5b-4ae7-ad49-79a3ad37b6e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3042 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18408,7 +18711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 200.66 57.15 0)
 		(mirror x)
 		(unit 1)
@@ -18416,24 +18719,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0b507555-2e60-4c2e-a1dd-c18a1278097a")
+		(fields_autoplaced yes)
+		(uuid "06ef8070-ae75-46ad-b39c-62a77b1d14c4")
 		(property "Reference" "J3"
-			(at 201.93 52.07 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "fancontrol_header"
-			(at 201.93 49.53 0)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Horizontal"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -18451,7 +18755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -18460,23 +18764,29 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3dd0fe54-b9a7-464a-adb1-a6d2256ef248")
+		(pin "7"
+			(uuid "c0a491c0-aeea-4ede-bde2-703ad6e4164d")
 		)
 		(pin "6"
-			(uuid "880984a2-5b9d-4c6b-855b-4d1270a5365a")
-		)
-		(pin "2"
-			(uuid "d97b6caf-c579-4d93-a9f1-a9b62b9307de")
-		)
-		(pin "5"
-			(uuid "ba5c15be-f4f1-4e4f-b321-cc834cc00a5a")
-		)
-		(pin "4"
-			(uuid "b70baa69-1414-4825-ab9c-8bb8fcfce6ce")
+			(uuid "4c8f091d-a2d2-4859-81c7-80573e026e86")
 		)
 		(pin "3"
-			(uuid "d34f8385-7768-4a68-b511-7e5c4c3a1abd")
+			(uuid "4db2a4f2-a980-439c-b6a7-c644231ea046")
+		)
+		(pin "4"
+			(uuid "86b17d3b-d09b-4a9d-9138-13dfbab02c6d")
+		)
+		(pin "8"
+			(uuid "a91739f2-343a-4fb3-b3bc-b15abd52baca")
+		)
+		(pin "5"
+			(uuid "43430923-8198-4858-88be-e557ab228261")
+		)
+		(pin "1"
+			(uuid "a03f8375-37b4-4d2a-b106-cd9da0b7c3b3")
+		)
+		(pin "2"
+			(uuid "97e1d772-6ce8-43fc-bb13-2083ea1f3473")
 		)
 		(instances
 			(project "Tinyriser6"
@@ -18515,7 +18825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -18582,7 +18892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 161.29 45.72 0)
 			(effects
 				(font
@@ -19390,7 +19700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 161.29 55.88 0)
 			(effects
 				(font
@@ -19648,6 +19958,73 @@
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 201.93 66.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6038e90c-6417-4b73-98d2-9a9c93f9f7e2")
+		(property "Reference" "JP1"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25f90576-acb1-42b5-8853-38eb68e1aa59")
+		)
+		(pin "1"
+			(uuid "d1c59213-fdda-443b-8558-933dc7ad1d25")
+		)
+		(instances
+			(project "Tinyriser6"
+				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -20036,7 +20413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 161.29 66.04 0)
 			(effects
 				(font
@@ -20347,75 +20724,6 @@
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90b4ffae-7d61-4ef7-a13b-e21b90105bf2")
-		(property "Reference" "R6"
-			(at 203.2 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 203.2 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.93 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f479e0f-f2c3-434e-aedd-0566a4e3d1d0")
-		)
-		(pin "2"
-			(uuid "8fef87c3-1b0b-4f5d-bacb-af2c9823045d")
-		)
-		(instances
-			(project "Tinyriser6"
-				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -20734,7 +21042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 161.29 50.8 0)
 			(effects
 				(font
@@ -20879,7 +21187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 161.29 60.96 0)
 			(effects
 				(font
@@ -22474,7 +22782,7 @@
 			(uuid "188210fc-c052-4230-b2ba-b336bbcb0bcd")
 		)
 		(instances
-			(project ""
+			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "J5")
 					(unit 1)
