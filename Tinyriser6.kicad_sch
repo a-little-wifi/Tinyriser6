@@ -20996,7 +20996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_CONNFLY_DS1095-WNR0"
+		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
 			(at 267.97 33.02 0)
 			(effects
 				(font
