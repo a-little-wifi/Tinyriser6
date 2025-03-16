@@ -15265,8 +15265,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Compatible with Tiny6/Tiny7:\nLenovo ThinkCentre M90q Gen 1, M90q Gen 2 Tiny\nLenovo ThinkStation P340, P350 Tiny"
-		(at 220.2 70.4 0)
+	(gr_text "Compatible with Tiny6/Tiny7:\nLenovo ThinkCentre:\nM90q Gen 1 & Gen 2\nLenovo ThinkStation:\nP340 & P350 Tiny"
+		(at 220.5 70.9 0)
 		(layer "B.SilkS")
 		(uuid "b576b739-a976-4053-a4f0-d4483c42f576")
 		(effects
