@@ -15372,6 +15372,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TODO:\n[ ] move pcie slot down 0.25mm\n[ ] change usb footprint\n[ ] fix logos\n[ ] somehow make the random io fit\n"
+		(at 165.5 108 0)
+		(layer "User.1")
+		(uuid "31f9c1cd-0c61-4a43-9c0e-a1536a8d46ea")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 128 85.25)
 		(end 128 84)
