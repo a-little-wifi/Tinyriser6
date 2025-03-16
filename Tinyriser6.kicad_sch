@@ -21058,7 +21058,7 @@
 			(uuid "b3e250b3-61ae-4f60-bcf7-90b0469b7196")
 		)
 		(instances
-			(project ""
+			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "J6")
 					(unit 1)
@@ -21161,7 +21161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17982d24-64f7-49e0-8f58-10f7ee532fa1")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 125.73 213.995 0)
 			(effects
 				(font
@@ -21215,7 +21215,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -21965,7 +21965,7 @@
 			(uuid "4010fbe9-5dd0-4f41-a9cd-440f4a28989d")
 		)
 		(instances
-			(project ""
+			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "J8")
 					(unit 1)
@@ -22144,7 +22144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4300a25b-f1ce-4941-b95c-922bdc9d12e2")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 128.27 213.995 0)
 			(effects
 				(font
@@ -22198,7 +22198,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -22561,7 +22561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d67904c-2c8a-41a5-8647-1b1a3258500f")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 130.81 213.995 0)
 			(effects
 				(font
@@ -22615,7 +22615,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -23029,7 +23029,7 @@
 			(uuid "7c6b0b24-8388-4fd8-a668-bbcbdd4e924f")
 		)
 		(instances
-			(project ""
+			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "#PWR010")
 					(unit 1)
@@ -23199,7 +23199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca86072d-9548-4047-99ff-7e452d64d668")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 133.35 213.995 0)
 			(effects
 				(font
@@ -23253,7 +23253,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -23274,7 +23274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce01045d-4002-44cf-abd3-4b69ccdb3746")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 39.37 120.65 90)
 			(effects
 				(font
@@ -23326,7 +23326,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
