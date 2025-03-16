@@ -16410,6 +16410,25 @@
 		)
 		(uuid "ff0f5b53-fe00-4bb7-8e9a-e193869c1014")
 	)
+	(text_box "giving up on breaking these out:"
+		(exclude_from_sim no)
+		(at 139.7 127 0)
+		(size 57.15 35.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9f3ea705-b518-4080-942b-04dc2c9a6f06")
+	)
 	(global_label "PCIe_PCH_Rx3-"
 		(shape input)
 		(at 307.34 179.07 180)
@@ -17402,7 +17421,7 @@
 	)
 	(global_label "GPU_PWR_EN"
 		(shape input)
-		(at 220.98 77.47 180)
+		(at 165.1 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17412,7 +17431,7 @@
 		)
 		(uuid "37507fbd-ca88-454b-8da7-b5e990db6f70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.7182 77.47 0)
+			(at 149.8382 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19646,22 +19665,22 @@
 	)
 	(global_label "GPU_MACO_EN"
 		(shape input)
-		(at 233.68 77.47 0)
+		(at 165.1 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bc3e3fde-5936-44d8-b4c5-b71b34080a69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.0909 77.47 0)
+			(at 148.6891 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19822,22 +19841,22 @@
 	)
 	(global_label "PCIe_CPU_REFCLK1+"
 		(shape input)
-		(at 172.72 80.01 0)
+		(at 165.1 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c2ea67a7-9081-4f54-a089-be3a057878bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6019 80.01 0)
+			(at 142.2181 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19910,22 +19929,22 @@
 	)
 	(global_label "PCIe_CPU_REFCLK5-"
 		(shape input)
-		(at 233.68 80.01 0)
+		(at 165.1 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c6123827-bdea-47da-9bd9-1075487742fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.5619 80.01 0)
+			(at 142.2181 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20504,7 +20523,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK1-"
 		(shape input)
-		(at 160.02 80.01 180)
+		(at 165.1 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20514,7 +20533,7 @@
 		)
 		(uuid "e788cb24-a9c4-47b6-bd6b-e3cc2125ddf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1381 80.01 0)
+			(at 142.2181 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20768,7 +20787,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK5+"
 		(shape input)
-		(at 220.98 80.01 180)
+		(at 165.1 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20778,7 +20797,7 @@
 		)
 		(uuid "fa073c72-39c7-461d-89cf-9c958a680150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.0981 80.01 0)
+			(at 142.2181 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24447,7 +24466,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad633d2-3988-4b04-86e9-0c8b4ee27245")
