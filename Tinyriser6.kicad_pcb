@@ -9675,7 +9675,7 @@
 		)
 		(model "${KIPRJMOD}/CONN-SMD_67P-P0.50_APCI0110-P001A.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0.1)
 			)
 			(scale
 				(xyz 1 1 1)
