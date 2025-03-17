@@ -9673,6 +9673,17 @@
 			(pintype "passive")
 			(uuid "a429c10f-be1e-41be-b662-1898ab592ed4")
 		)
+		(model "C:/Users/WiFiCable/Documents/KiCad/easyeda2kicad/that-vertical-mkey.3dshapes/CONN-SMD_67P-P0.50_APCI0110-P001A.step"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LOGO"
 		(layer "F.Cu")
