@@ -21709,7 +21709,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 140.97 22.86 270)
+		(at 142.24 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21718,7 +21718,7 @@
 		(fields_autoplaced yes)
 		(uuid "100e36d5-8857-46c3-a538-4009df2b35cb")
 		(property "Reference" "TP3"
-			(at 146.05 22.225 90)
+			(at 147.32 22.225 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21727,7 +21727,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 146.05 24.765 90)
+			(at 147.32 24.765 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21736,7 +21736,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 140.97 27.94 0)
+			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21745,7 +21745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 27.94 0)
+			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21754,7 +21754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 22.86 0)
+			(at 142.24 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23162,7 +23162,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 140.97 29.21 270)
+		(at 142.24 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23171,7 +23171,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b0f1f6e-b56e-4980-82d0-9b1b3737028d")
 		(property "Reference" "TP7"
-			(at 146.05 28.575 90)
+			(at 147.32 28.575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23180,7 +23180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 31.115 90)
+			(at 147.32 31.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23189,7 +23189,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 140.97 34.29 0)
+			(at 142.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23198,7 +23198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 34.29 0)
+			(at 142.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23207,7 +23207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 29.21 0)
+			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
