@@ -14425,7 +14425,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TODO:\n[x] move pcie slot down 0.25mm\n[ ] change usb footprint\n[ ] fix logos\n[x] somehow make the random io fit\n[ ] look into m.2 slot placement\n[x] ground vias!!!!!!!!!!\n[ ] final silkscreen check\n[x] wiggles"
+	(gr_text "TODO:\n[x] move pcie slot down 0.25mm\n[ ] change usb footprint\n[ ] fix logos\n[x] somehow make the random io fit\n[ ] look into m.2 slot placement\n[x] ground vias!!!!!!!!!!\n[ ] final silkscreen check\n[x] wiggles\n[ ] double check edge connector dimensions"
 		(at 165.5 112.5 0)
 		(layer "User.1")
 		(uuid "31f9c1cd-0c61-4a43-9c0e-a1536a8d46ea")
@@ -15948,6 +15948,15 @@
 		(uuid "3bf37685-c92d-4438-9d06-7fe18f0f8ee5")
 	)
 	(via
+		(at 143.75 85.5)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "3f06d3d7-3589-4929-b7d4-5768e6281950")
+	)
+	(via
 		(at 169.2 82.25)
 		(size 0.5)
 		(drill 0.3)
@@ -16170,6 +16179,15 @@
 		(uuid "82536d0f-452c-47a7-9efa-114fd40d90f3")
 	)
 	(via
+		(at 122 78.25)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "86318580-ce7e-47d8-a829-4d069aa7b368")
+	)
+	(via
 		(at 141.225 75.25)
 		(size 0.5)
 		(drill 0.3)
@@ -16258,6 +16276,15 @@
 		(uuid "b6ad1c39-8012-4854-a356-17c3f002f899")
 	)
 	(via
+		(at 124.25 74.8)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "b712d020-73d4-4f0d-b47f-53e957336d25")
+	)
+	(via
 		(at 188.175 82.25)
 		(size 0.5)
 		(drill 0.3)
@@ -16283,6 +16310,15 @@
 		(free yes)
 		(net 2)
 		(uuid "c3b212bc-52a0-4432-bf8b-30337e68cb98")
+	)
+	(via
+		(at 145.25 85.5)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "c625efdc-fe25-4ad6-8ea0-342fe1f7ab3a")
 	)
 	(via
 		(at 133.25 79.875)
