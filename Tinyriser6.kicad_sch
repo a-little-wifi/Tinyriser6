@@ -3208,7 +3208,7 @@
 						)
 					)
 				)
-				(text "Pulling BMC_DETECT# low will bifurcate the\nCPU x8 link into 2 x4 links.\nuse lane 0-3 and 4-7 \n(Not available by default, pins\nwith @ aren't connected in retail config)"
+				(text "Pulling BMC_DETECT# low will bifurcate the\nCPU x8 link into 2 x4 links for Tiny6\nuse lane 0-3 and 4-7 \n(Not available by default, pins\nwith @ aren't connected in retail config)"
 					(at 0 3.81 0)
 					(effects
 						(font
