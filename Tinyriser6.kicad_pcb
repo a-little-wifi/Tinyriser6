@@ -14428,7 +14428,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TODO:\n[x] move pcie slot down 0.25mm\n[ ] change usb footprint\n[ ] fix logos\n[x] somehow make the random io fit\n[ ] look into m.2 slot placement\n[x] ground vias!!!!!!!!!!\n[ ] final silkscreen check\n[x] wiggles\n[ ] double check edge connector dimensions"
+	(gr_text "TODO:\n[x] move pcie slot down 0.25mm\n[ ] change usb footprint\n[ ] fix logos\n[x] somehow make the random io fit\n[ ] look into m.2 slot placement\n[x] ground vias!!!!!!!!!!\n[ ] final silkscreen check\n[x] wiggles\n[ ] double check edge connector dimensions (use calipers or smth lol)"
 		(at 165.5 112.5 0)
 		(layer "User.1")
 		(uuid "31f9c1cd-0c61-4a43-9c0e-a1536a8d46ea")
