@@ -14192,6 +14192,18 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "For documentation visit:\ngithub.com/a-little-wifi/Tinyriser6"
+		(at 184.95 72.05 0)
+		(layer "B.SilkS")
+		(uuid "171e29f7-afed-4ac8-8e55-19be9a613d04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "12V\nFAN"
 		(at 222.3 71.9 0)
 		(layer "B.SilkS")
@@ -17205,14 +17217,6 @@
 		(uuid "3034b3d8-647d-46a8-bb34-6709aac93bc2")
 	)
 	(segment
-		(start 172.75 82.25)
-		(end 171.75 81.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "32168dbd-1af3-4724-82d8-0125fd8b2102")
-	)
-	(segment
 		(start 195.5 82.25)
 		(end 195.75 82)
 		(width 0.5)
@@ -17243,6 +17247,14 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "37ee8dae-2bad-4cf9-8589-9c59da4e8d71")
+	)
+	(segment
+		(start 172 81.25)
+		(end 171.75 81.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "3a3032fe-ece7-4c73-9db0-86caa38bc569")
 	)
 	(segment
 		(start 185.4 84)
@@ -17299,6 +17311,14 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "43e7d71e-cf59-423c-b868-f8c915d8d97f")
+	)
+	(segment
+		(start 173.4 82.25)
+		(end 173 82.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "43f56d78-1497-4801-b959-0aa97bdaf123")
 	)
 	(segment
 		(start 191.75 81.25)
@@ -17789,6 +17809,14 @@
 		(uuid "9ff9a49f-f945-464d-80f2-2bb76dbfe162")
 	)
 	(segment
+		(start 173 82.25)
+		(end 172 81.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "a047f66a-ee5c-47ce-8a80-6a5312409cb1")
+	)
+	(segment
 		(start 170.4 82.85)
 		(end 169.8 82.25)
 		(width 0.5)
@@ -17995,14 +18023,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "c26168df-9af9-4f91-82bf-ad7441b08345")
-	)
-	(segment
-		(start 173.4 82.25)
-		(end 172.75 82.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "c2c0635b-1b15-4f19-9e64-adc45ac3e950")
 	)
 	(segment
 		(start 195.75 82)
