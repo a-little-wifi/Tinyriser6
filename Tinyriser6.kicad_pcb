@@ -11073,6 +11073,7 @@
 			(uuid "c0333488-74be-4768-b2d7-b1915d8e9f97")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Horizontal.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
