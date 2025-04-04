@@ -21806,7 +21806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+		(property "Footprint" "A-my-stuff:USB-A-TH_HC-USB2.0-L100-W"
 			(at 267.97 33.02 0)
 			(effects
 				(font
@@ -21825,6 +21825,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part url" "https://www.lcsc.com/product-detail/USB-Connectors_Hong-Cheng-HC-USB2-0-L100-P_C7501843.html"
 			(at 264.16 31.75 0)
 			(effects
 				(font
