@@ -17948,22 +17948,22 @@
 	)
 	(global_label "FP_RST#"
 		(shape input)
-		(at 226.06 144.78 270)
+		(at 226.06 132.08 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2c0ce2b2-0c16-4c1a-9a1b-f9e7283d2919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 155.8085 90)
+			(at 226.06 121.0515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18432,22 +18432,22 @@
 	)
 	(global_label "SMLINK1_DATA"
 		(shape input)
-		(at 226.06 132.08 90)
+		(at 226.06 144.78 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4619ec83-91c1-40e1-b451-25d158682e70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 115.6086 90)
+			(at 226.06 161.2514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
