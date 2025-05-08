@@ -21631,7 +21631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06ef8070-ae75-46ad-b39c-62a77b1d14c4")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 232.41 20.32 0)
 			(effects
 				(font
@@ -21701,7 +21701,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -21790,7 +21790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12c7df27-e1ea-4d4d-969c-e41b4bbbe71c")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 264.16 19.05 0)
 			(effects
 				(font
@@ -21860,7 +21860,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -22022,7 +22022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cdc92bd-48ee-4eb7-a85a-91d413fd0597")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 339.09 25.4 0)
 			(effects
 				(font
@@ -22519,7 +22519,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -23252,7 +23252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b56177d-d131-4d53-869f-901b6ef16a61")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 67.8941 25.4 0)
 			(effects
 				(font
@@ -23501,7 +23501,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -23589,7 +23589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedfdbc8-5675-4b2e-a7e3-a74edb5df3b7")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 208.28 137.1599 90)
 			(effects
 				(font
@@ -23697,7 +23697,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -25050,7 +25050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad633d2-3988-4b04-86e9-0c8b4ee27245")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 458.47 21.59 0)
 			(effects
 				(font
@@ -25606,7 +25606,7 @@
 		(instances
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
