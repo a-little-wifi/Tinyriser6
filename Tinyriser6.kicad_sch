@@ -21806,7 +21806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A-my-stuff:USB-A-TH_HC-USB2.0-L100-W"
+		(property "Footprint" "A-my-stuff:that-sideways-usb"
 			(at 267.97 33.02 0)
 			(effects
 				(font
@@ -21833,7 +21833,7 @@
 				(hide yes)
 			)
 		)
-		(property "part url" "https://www.lcsc.com/product-detail/USB-Connectors_Hong-Cheng-HC-USB2-0-L100-P_C7501843.html"
+		(property "part url" "https://www.lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-906-862A1118D10200_C2763236.html"
 			(at 264.16 31.75 0)
 			(effects
 				(font
