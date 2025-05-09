@@ -5936,7 +5936,7 @@
 		(uuid "62775e4d-e851-4d0b-8c1a-62ddc9c11349")
 		(at 199.4425 68.400001 -90)
 		(property "Reference" "J5"
-			(at 2.399999 -4.7075 360)
+			(at 2.399999 -4.7075 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1d75ab5b-676b-45c1-b084-428a24b3ebf9")
@@ -6347,8 +6347,8 @@
 		(sheetfile "Tinyriser6.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.33 24.19)
-			(end 3.87 24.19)
+			(start -0.83 24.19)
+			(end 3.37 24.19)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6357,8 +6357,8 @@
 			(uuid "14015755-e5be-4c0a-b8ca-ef927934a62a")
 		)
 		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 24.19)
+			(start -1.33 -0.83)
+			(end -1.33 23.69)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6367,48 +6367,18 @@
 			(uuid "b94e035b-4f23-415b-82cf-530a3e396287")
 		)
 		(fp_line
-			(start -1.33 1.27)
-			(end 1.27 1.27)
+			(start 3.87 -0.83)
+			(end 3.87 23.69)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f10bbe8-5ecd-4e59-afc2-520a87f2012c")
+			(uuid "68a9aad0-c663-425e-a959-0b388783ed75")
 		)
 		(fp_line
-			(start 1.27 1.27)
-			(end 1.27 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e90f90a6-322f-45fc-b84c-88f9e7cc081c")
-		)
-		(fp_line
-			(start -1.33 0)
-			(end -1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "77020025-16d1-4337-9087-08e1fc5aa597")
-		)
-		(fp_line
-			(start -1.33 -1.33)
-			(end 0 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6f34fba-eae3-40b6-99b7-14a153b3e54d")
-		)
-		(fp_line
-			(start 1.27 -1.33)
-			(end 3.87 -1.33)
+			(start -0.83 -1.33)
+			(end 3.37 -1.33)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6416,15 +6386,49 @@
 			(layer "F.SilkS")
 			(uuid "86ea83f9-997f-4922-9ef5-54897fb6e0e1")
 		)
-		(fp_line
-			(start 3.87 -1.33)
-			(end 3.87 24.19)
+		(fp_arc
+			(start -0.83 24.19)
+			(mid -1.183553 24.043553)
+			(end -1.33 23.69)
 			(stroke
 				(width 0.12)
-				(type solid)
+				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "68a9aad0-c663-425e-a959-0b388783ed75")
+			(uuid "baccb6fd-cba4-4c40-a7c8-496bca1db85f")
+		)
+		(fp_arc
+			(start 3.87 23.69)
+			(mid 3.723553 24.043553)
+			(end 3.37 24.19)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0f5c7178-8779-4143-97c9-232a783c6d63")
+		)
+		(fp_arc
+			(start -1.33 -0.83)
+			(mid -1.183553 -1.183553)
+			(end -0.83 -1.33)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7766c8ca-6932-4ae4-835b-70c49de01bf3")
+		)
+		(fp_arc
+			(start 3.37 -1.33)
+			(mid 3.723553 -1.183553)
+			(end 3.87 -0.83)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9205b20d-66be-416d-a280-0aae5dd56f4a")
 		)
 		(fp_line
 			(start -1.8 24.65)
@@ -15515,6 +15519,19 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "SML_CLK"
+		(at 184.65 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "14064f91-fb23-40e3-bc96-ec5170963157")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "For documentation visit:\ngithub.com/a-little-wifi/Tinyriser6"
 		(at 180.5 73.575 0)
 		(layer "B.SilkS")
@@ -15523,6 +15540,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "FP_RST#"
+		(at 181.875 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "19f36d75-5bd1-4ced-b4e7-96aebe619dbb")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -15552,6 +15582,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "PWRBTN#"
+		(at 176.775 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "23fffd0f-2edc-4044-a48e-6ccd0c9bd4a2")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "x8"
 		(at 182.95 73.5 0)
 		(layer "B.SilkS")
@@ -15562,6 +15605,19 @@
 				(thickness 0.11)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "REFCLK11-"
+		(at 177.075 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "3d26d96d-c84b-49da-8d7f-a41d622dcb37")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "SMB\nCLK"
@@ -15586,6 +15642,70 @@
 				(size 0.66 0.66)
 				(thickness 0.12)
 				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "GPU_MACO_EN"
+		(at 172.025 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "423107b4-0f3c-41aa-a862-ac51149b6f9f")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SYSPWROK"
+		(at 169.175 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "4d0af1ae-7a15-43fa-af4d-22acc86f69bc")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "REFCLK11+"
+		(at 179.575 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "5322a040-ed7d-4337-8b5f-0f32e235d99e")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SML_DAT"
+		(at 182.125 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "5342e611-3c80-4003-b461-7d910759a44e")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Fun stuff"
+		(at 177.775 61.9 0)
+		(layer "B.SilkS")
+		(uuid "5bd71056-3e16-4878-9029-4c18f0c6c836")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify bottom mirror)
 		)
@@ -15616,6 +15736,32 @@
 		)
 	)
 	(gr_text "GND"
+		(at 189.45 65.325 -22.5)
+		(layer "B.SilkS")
+		(uuid "6fa50584-f587-423b-ac3f-68e5f919c76a")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 189.8 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "79e6e61b-855e-404f-8f67-b6ac59b999cd")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
 		(at 224.6 66.95 0)
 		(layer "B.SilkS")
 		(uuid "7f0c56c9-d5d2-42f9-b5f1-ec175c979c3d")
@@ -15626,6 +15772,19 @@
 				(bold yes)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "GPU_PWR_EN"
+		(at 171.575 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "8710858c-91e8-46f0-bc19-8e3203604a32")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Fan 12V jumper"
@@ -15666,6 +15825,32 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "AZ_SDOUT"
+		(at 174.15 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "b05abc5f-f5fd-4ac6-992e-ec6e649b7ac2")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "ME_REC"
+		(at 179.3 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "b15dbf76-a9ac-47ae-b02b-0715baade4f0")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Compatible with Tiny6/Tiny7:\nLenovo ThinkCentre:\nM90q Gen 1 & Gen 2\nLenovo ThinkStation:\nP340 & P350 Tiny"
 		(at 220.2 70.9 0)
 		(layer "B.SilkS")
@@ -15674,6 +15859,84 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+5V"
+		(at 166.575 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "b64865cf-f51d-4d18-8691-4ed6132ca776")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+3.3V_S5"
+		(at 187.2 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "c5a50ed5-0652-4e13-bc98-8abc691fd0f5")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RSMRST#"
+		(at 166.975 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "c6114438-a98b-41ef-91b1-b8ad9b1ed3fe")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+3.3V"
+		(at 186.9 65.275 337.5)
+		(layer "B.SilkS")
+		(uuid "d8667443-96f6-4c6c-a5c7-f4d4a0f98f93")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SML_ALERT#"
+		(at 174.55 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "db8bb982-69ef-4a3d-90c5-72949c56e922")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PRSNT#"
+		(at 184.4 65.3 337.5)
+		(layer "B.SilkS")
+		(uuid "e9131031-5905-4f61-9ef6-41529897b3c5")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -15688,6 +15951,19 @@
 				(thickness 0.11)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "BMC_DET#"
+		(at 169.525 70.225 22.5)
+		(layer "B.SilkS")
+		(uuid "f8ad2e45-c14d-43fb-b5fb-674d2f75fc25")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "notch"
