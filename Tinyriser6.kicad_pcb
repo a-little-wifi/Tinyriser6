@@ -18894,13 +18894,14 @@
 		)
 	)
 	(gr_text "For documentation visit:\ngithub.com/a-little-wifi/Tinyriser6"
-		(at 180.5 73.575 0)
+		(at 181 73.575 0)
 		(layer "B.SilkS")
 		(uuid "171e29f7-afed-4ac8-8e55-19be9a613d04")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -19242,7 +19243,7 @@
 		)
 	)
 	(gr_text "11: GND\n12: +3V3_S5\n13: SMLINK1_CLK\n14: SMLINK1_DATA\n15: PCIe_CPU_REFCLK1+\n16: PCIe_CPU_REFCLK1-\n17: SIO_SML1ALERT#\n18: GPU_MACO_EN\n19: BMC_DETECT#\n20: RSMRST_SIO#\n"
-		(at 139.2 73.6 0)
+		(at 143.3 73.6 0)
 		(layer "B.SilkS")
 		(uuid "73b14c6f-87be-42ee-9477-1f1fea40e32c")
 		(effects
@@ -19367,7 +19368,7 @@
 		)
 	)
 	(gr_text "1:  GND\n2:  +3V3\n3:  PCIE_X8_X4_PRSNT#\n4:  FP_RST#\n5:  ME_RECOVERY_BMC\n6:  PWRBTN#\n7:  AZ_SDOUT_R\n8:  GPU_PWR_EN\n9:  PCH_SYSPOWEROK\n10: +5V\n"
-		(at 152.65 73.7 0)
+		(at 156.7 73.6 0)
 		(layer "B.SilkS")
 		(uuid "a16f1682-995b-4d73-acd8-7b9d20d89ef4")
 		(effects
