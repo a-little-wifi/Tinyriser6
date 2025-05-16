@@ -7076,8 +7076,8 @@
 		(sheetfile "Tinyriser6.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -2.85 7.15)
-			(end 2.85 7.15)
+			(start -2.65 7.15)
+			(end 2.65 7.15)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -7086,7 +7086,7 @@
 			(uuid "d789d3d9-8118-4019-a7e9-33d42b82567f")
 		)
 		(fp_line
-			(start 2.85 7.15)
+			(start 2.85 6.95)
 			(end 2.85 1.14)
 			(stroke
 				(width 0.1)
@@ -7097,7 +7097,7 @@
 		)
 		(fp_line
 			(start -2.85 1.14)
-			(end -2.85 7.15)
+			(end -2.85 6.95)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -7147,7 +7147,7 @@
 		)
 		(fp_line
 			(start 2.95 -1.7)
-			(end 2.95 -3.25)
+			(end 2.95 -3.05)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -7156,7 +7156,7 @@
 			(uuid "906fb05c-18ad-4793-865c-6fe91eff5f62")
 		)
 		(fp_line
-			(start -2.95 -3.2)
+			(start -2.95 -3.05)
 			(end -2.95 -1.7)
 			(stroke
 				(width 0.1)
@@ -7166,18 +7166,8 @@
 			(uuid "e572faa3-93d1-41f3-8571-1a09d8a15809")
 		)
 		(fp_line
-			(start -2.95 -3.25)
-			(end -2.95 -3.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f7a7402f-f490-45f8-9fe6-a0c9af5dd92b")
-		)
-		(fp_line
 			(start -2.64 -3.25)
-			(end -2.95 -3.25)
+			(end -2.75 -3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -7216,7 +7206,7 @@
 			(uuid "ee1015c2-131c-4559-a094-873f02c8611a")
 		)
 		(fp_line
-			(start 2.95 -3.25)
+			(start 2.75 -3.25)
 			(end 2.64 -3.25)
 			(stroke
 				(width 0.1)
@@ -7224,6 +7214,50 @@
 			)
 			(layer "F.SilkS")
 			(uuid "78b7c207-9ff0-4a94-aa16-acf2de99bbe5")
+		)
+		(fp_arc
+			(start -2.65 7.15)
+			(mid -2.791421 7.091421)
+			(end -2.85 6.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c2ab2266-bfdb-4089-9e85-5cd3e048fe97")
+		)
+		(fp_arc
+			(start 2.85 6.95)
+			(mid 2.791421 7.091421)
+			(end 2.65 7.15)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1918c710-8da0-4a57-b87c-d0807454becd")
+		)
+		(fp_arc
+			(start -2.95 -3.05)
+			(mid -2.891421 -3.191421)
+			(end -2.75 -3.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "24ea2284-0259-4771-800b-59ba21ca9a91")
+		)
+		(fp_arc
+			(start 2.75 -3.25)
+			(mid 2.891421 -3.191421)
+			(end 2.95 -3.05)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9260f2f1-467e-433e-9c92-4364b135f7a9")
 		)
 		(fp_circle
 			(center 2.95 -3.22)
@@ -20441,7 +20475,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/xx/xx"
+	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/16"
 		(at 137.125 85.7 0)
 		(layer "B.Cu")
 		(uuid "e899516b-3715-4097-871a-297c3388eae3")
@@ -20864,6 +20898,19 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "Universal"
+		(at 200.2 68.3 45)
+		(layer "B.SilkS")
+		(uuid "6734a8cc-77f1-4773-baac-c9017bb69dcf")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "x16"
 		(at 145.25 74.7 0)
 		(layer "B.SilkS")
@@ -21014,6 +21061,19 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "Spell Bus"
+		(at 196.2 71.8 0)
+		(layer "B.SilkS")
+		(uuid "9d669e4c-1f66-481a-9454-6bba70e4a7b6")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "1:  GND\n2:  +3V3\n3:  PCIE_X8_X4_PRSNT#\n4:  FP_RST#\n5:  ME_RECOVERY_BMC\n6:  PWRBTN#\n7:  AZ_SDOUT_R\n8:  GPU_PWR_EN\n9:  PCH_SYSPOWEROK\n10: +5V\n"
 		(at 156.7 73.6 0)
 		(layer "B.SilkS")
@@ -21114,7 +21174,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Compatible with Tiny6/Tiny7:\nLenovo ThinkCentre:\nM90q Gen 1 & Gen 2\nLenovo ThinkStation:\nP340 & P350 Tiny"
+	(gr_text "Compatible with Tiny6 & Tiny7:\nLenovo ThinkCentre:\nM90q Gen 1 & Gen 2\nLenovo ThinkStation:\nP340 & P350 Tiny"
 		(at 220.2 70.9 0)
 		(layer "B.SilkS")
 		(uuid "b576b739-a976-4053-a4f0-d4483c42f576")
@@ -21397,7 +21457,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/xx/xx"
+	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/16"
 		(at 137.125 85.7 0)
 		(layer "B.Mask")
 		(uuid "656ddd60-ca94-4952-bf0a-bd6d76f649f4")
@@ -21410,7 +21470,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/xx/xx"
+	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/16"
 		(at 137.275 85.8 0)
 		(layer "B.Mask")
 		(uuid "867b229f-83db-4dbe-8a0f-24b257051635")
@@ -21462,7 +21522,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TODO:\n[x] move pcie slot down 0.25mm\n[x] change usb footprint\n[ ] fix logos\n[x] somehow make the random io fit\n[x] look into m.2 slot placement\n[x] ground vias!!!!!!!!!!\n[ ] final silkscreen check\n[x] wiggles\n[x] double check edge connector dimensions (use calipers or smth lol (didn't lol (ok fine I did)))\n[x] change misc io header back to 2.54mm pitch"
+	(gr_text "TODO:\n[x] move pcie slot down 0.25mm\n[x] change usb footprint\n[x] fix logos\n[x] somehow make the random io fit\n[x] look into m.2 slot placement\n[x] ground vias!!!!!!!!!!\n[x] final silkscreen check\n[x] wiggles\n[x] double check edge connector dimensions (use calipers or smth lol (didn't lol (ok fine I did)))\n[x] change misc io header back to 2.54mm pitch"
 		(at 165.5 112.5 0)
 		(layer "User.1")
 		(uuid "31f9c1cd-0c61-4a43-9c0e-a1536a8d46ea")
