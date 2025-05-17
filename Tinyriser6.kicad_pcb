@@ -21613,7 +21613,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "1:  GND\n2:  +3V3\n3:  PCIE_X8_X4_PRSNT#\n4:  FP_RST#\n5:  ME_RECOVERY_BMC\n6:  PWRBTN#\n7:  AZ_SDOUT_R\n8:  GPU_PWR_EN\n9:  PCH_SYSPOWEROK\n10: +5V\n"
+	(gr_text "1:  GND\n2:  +3V3\n3:  PCIE_X8_X4_PRSNT#\n4:  FP_RST#\n5:  ME_RECOVERY_BMC\n6:  PWRBTN#\n7:  AZ_SDOUT_R\n8:  GPU_PWR_EN\n9:  PCH_SYSPWROK\n10: +5V_S5\n"
 		(at 156.7 73.6 0)
 		(layer "B.SilkS")
 		(uuid "a16f1682-995b-4d73-acd8-7b9d20d89ef4")

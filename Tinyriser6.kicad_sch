@@ -3144,7 +3144,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J4"
+			(property "Reference" "J1"
 				(at 1.27 73.66 0)
 				(effects
 					(font
@@ -3615,7 +3615,7 @@
 				(pin unspecified line
 					(at 25.4 -125.73 180)
 					(length 2.54)
-					(name "PCH_SYSPOWEROK"
+					(name "PCH_SYSPWROK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14884,16 +14884,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 26.67) (xy 271.78 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b6aabef-8fc4-4ef8-8694-397f010262b7")
-	)
-	(wire
-		(pts
 			(xy 363.22 29.21) (xy 365.76 29.21)
 		)
 		(stroke
@@ -17524,6 +17514,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 26.67) (xy 274.32 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b62076-5804-4428-b9ce-b3b0d0192cf1")
+	)
+	(wire
+		(pts
 			(xy 312.42 214.63) (xy 307.34 214.63)
 		)
 		(stroke
@@ -18497,7 +18497,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_S5"
 		(shape input)
 		(at 274.32 26.67 0)
 		(fields_autoplaced yes)
@@ -19949,7 +19949,7 @@
 			)
 		)
 	)
-	(global_label "PCH_SYSPOWEROK"
+	(global_label "PCH_SYSPWROK"
 		(shape input)
 		(at 213.36 132.08 90)
 		(fields_autoplaced yes)
@@ -19961,7 +19961,7 @@
 		)
 		(uuid "6d6fdb2f-17c0-4a12-88f5-2c169c079a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 111.6777 90)
+			(at 213.36 114.1572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,7 +20257,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_S5"
 		(shape input)
 		(at 210.82 132.08 90)
 		(fields_autoplaced yes)
@@ -20851,7 +20851,7 @@
 			)
 		)
 	)
-	(global_label "PCH_SYSPOWEROK"
+	(global_label "PCH_SYSPWROK"
 		(shape input)
 		(at 368.3 224.79 0)
 		(fields_autoplaced yes)
@@ -20863,7 +20863,7 @@
 		)
 		(uuid "ad814995-8bbc-4fb0-8e55-280a24b66214")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.7023 224.79 0)
+			(at 386.2228 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21313,7 +21313,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_S5"
 		(shape input)
 		(at 307.34 222.25 180)
 		(fields_autoplaced yes)
