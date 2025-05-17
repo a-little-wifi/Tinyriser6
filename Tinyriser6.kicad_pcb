@@ -20946,26 +20946,6 @@
 		(layer "User.2")
 		(uuid "f729a75e-f535-4e94-a455-00ac1e8597d2")
 	)
-	(gr_line
-		(start 153.25 70.95)
-		(end 153.25 70.95)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "d0e8f40d-2ed9-47dd-a2bf-0f1256d0bc39")
-	)
-	(gr_line
-		(start 149.98 71.49)
-		(end 149.98 71.49)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "eaaa23a9-23e1-43d4-8dc7-32355e0f8187")
-	)
 	(gr_text "1    "
 		(at 122.2 64.7 0)
 		(layer "F.Cu")
