@@ -23505,9 +23505,9 @@
 	)
 	(gr_circle
 		(center 160.75 67.05)
-		(end 163.5 67.05)
+		(end 163.48 67.05)
 		(stroke
-			(width 1.25)
+			(width 1.275)
 			(type default)
 		)
 		(fill none)
