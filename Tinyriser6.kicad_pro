@@ -540,7 +540,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerber/Tinyriser6/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
