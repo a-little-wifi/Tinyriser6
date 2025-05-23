@@ -15,7 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J5"
+			(property "Reference" "J7"
 				(at 0 101.6 0)
 				(effects
 					(font
@@ -68,6 +68,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "by WifiCable"
+					(at 0 53.34 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 255 255 194 1)
+						)
 					)
 				)
 				(text "For Tiny8/TinyMax:\nreverse engineered off\nof pictures and beefy riser for now\nno schematic"
@@ -13734,7 +13743,7 @@
 		(uuid "384be962-afc0-4671-97c6-1d370c9fdafa")
 	)
 	(junction
-		(at 236.22 146.05)
+		(at 210.82 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a261c5f-db8d-4cb4-b572-38e4eddc0b5a")
@@ -14315,7 +14324,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 144.78) (xy 233.68 146.05)
+			(xy 208.28 147.32) (xy 208.28 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14445,7 +14454,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 146.05) (xy 236.22 148.59)
+			(xy 210.82 148.59) (xy 210.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -14615,7 +14624,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 146.05) (xy 236.22 146.05)
+			(xy 208.28 148.59) (xy 210.82 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14705,7 +14714,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 130.81) (xy 233.68 132.08)
+			(xy 208.28 133.35) (xy 208.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -14845,7 +14854,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 130.81) (xy 236.22 146.05)
+			(xy 210.82 133.35) (xy 210.82 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14975,7 +14984,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 130.81) (xy 236.22 130.81)
+			(xy 208.28 133.35) (xy 210.82 133.35)
 		)
 		(stroke
 			(width 0)
@@ -17863,9 +17872,28 @@
 		)
 		(uuid "ff0f5b53-fe00-4bb7-8e9a-e193869c1014")
 	)
+	(text_box "_S5 power rails are active when the system is off\n\nPulling BMC_DETECT# low will bifurcate the\nCPU x8 link into 2 x4 links for Tiny6\nuse lane 0-3 and 4-7 \n(Not available by default, pins\nwith @ aren't connected in retail config)"
+		(exclude_from_sim no)
+		(at 215.9 127 0)
+		(size 44.45 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "94b5632c-803b-4b48-aa86-83198330e0aa")
+	)
 	(text_box "giving up on breaking these out:"
 		(exclude_from_sim no)
-		(at 139.7 127 0)
+		(at 133.35 91.44 0)
 		(size 44.45 45.72)
 		(stroke
 			(width 0)
@@ -17881,17 +17909,6 @@
 			(justify left top)
 		)
 		(uuid "9f3ea705-b518-4080-942b-04dc2c9a6f06")
-	)
-	(text "Pulling BMC_DETECT# low will bifurcate the\nCPU x8 link into 2 x4 links for Tiny6\nuse lane 0-3 and 4-7 \n(Not available by default, pins\nwith @ aren't connected in retail config)"
-		(exclude_from_sim no)
-		(at 241.3 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07ed6038-1c21-4181-b6ce-ce6fb1e389b8")
 	)
 	(text "Note: CLKREQ# needs to be connected to GND to activate the clock signal.\nIf you're replacing the PCIe slot with an open-ended one,\nmake sure to account for longer cards where the presence pin is outside the slot.\nMaybe just hard-wire CLKREQ# to GND"
 		(exclude_from_sim no)
@@ -18082,7 +18099,7 @@
 	)
 	(global_label "BMC_DETECT#"
 		(shape input)
-		(at 213.36 144.78 270)
+		(at 187.96 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18092,7 +18109,7 @@
 		)
 		(uuid "0fa60c97-ec17-4ce8-b8a1-b96da6c235a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 160.7674 90)
+			(at 187.96 163.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18104,7 +18121,7 @@
 	)
 	(global_label "ESPI_ALERT1#"
 		(shape input)
-		(at 165.1 157.48 180)
+		(at 158.75 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18114,7 +18131,7 @@
 		)
 		(uuid "11243e33-f220-4c37-96b0-f00ba0ee39b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.9311 157.48 0)
+			(at 142.5811 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18148,7 +18165,7 @@
 	)
 	(global_label "ESPI_RESET#_BMC"
 		(shape input)
-		(at 165.1 160.02 180)
+		(at 158.75 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18158,7 +18175,7 @@
 		)
 		(uuid "150a66cb-4030-435f-b667-072b016766ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.9398 160.02 0)
+			(at 138.5898 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18258,7 +18275,7 @@
 	)
 	(global_label "ESPI_ALERT0#_BMC"
 		(shape input)
-		(at 165.1 154.94 180)
+		(at 158.75 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18268,7 +18285,7 @@
 		)
 		(uuid "1c79dcaf-96a1-4e9e-a8e6-84305b5bfe86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.9721 154.94 0)
+			(at 137.6221 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18632,7 +18649,7 @@
 	)
 	(global_label "FP_RST#"
 		(shape input)
-		(at 226.06 132.08 90)
+		(at 200.66 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18642,7 +18659,7 @@
 		)
 		(uuid "2c0ce2b2-0c16-4c1a-9a1b-f9e7283d2919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 121.0515 90)
+			(at 200.66 123.5915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18764,7 +18781,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 231.14 132.08 90)
+		(at 205.74 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18774,7 +18791,7 @@
 		)
 		(uuid "2fe5d85d-f59e-4b67-b265-e118e801c402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 124.0148 90)
+			(at 205.74 126.5548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18896,7 +18913,7 @@
 	)
 	(global_label "GPU_PWR_EN"
 		(shape input)
-		(at 215.9 132.08 90)
+		(at 190.5 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18906,7 +18923,7 @@
 		)
 		(uuid "37507fbd-ca88-454b-8da7-b5e990db6f70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 116.8182 90)
+			(at 190.5 119.3582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18962,7 +18979,7 @@
 	)
 	(global_label "ESPI_CLK_BMC"
 		(shape input)
-		(at 165.1 162.56 180)
+		(at 158.75 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18972,7 +18989,7 @@
 		)
 		(uuid "3b6f54b8-c5e4-45a2-8013-d562842aed87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.3868 162.56 0)
+			(at 142.0368 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +19133,7 @@
 	)
 	(global_label "SMLINK1_DATA"
 		(shape input)
-		(at 226.06 144.78 270)
+		(at 200.66 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19126,7 +19143,7 @@
 		)
 		(uuid "4619ec83-91c1-40e1-b451-25d158682e70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 161.2514 90)
+			(at 200.66 163.7914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19314,7 +19331,7 @@
 	)
 	(global_label "RSMRST_SIO#"
 		(shape input)
-		(at 210.82 144.78 270)
+		(at 185.42 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19324,7 +19341,7 @@
 		)
 		(uuid "4d770f63-bf79-4b44-87d6-8dbf98094769")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 160.5256 90)
+			(at 185.42 163.0656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19358,7 +19375,7 @@
 	)
 	(global_label "+3V3_S5"
 		(shape input)
-		(at 231.14 144.78 270)
+		(at 205.74 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19368,7 +19385,7 @@
 		)
 		(uuid "4f16116d-45e9-40ab-85a5-b6df92713f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 156.2318 90)
+			(at 205.74 158.7718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19512,7 +19529,7 @@
 	)
 	(global_label "ESPI_CS1#_BMC"
 		(shape input)
-		(at 165.1 152.4 180)
+		(at 158.75 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19522,7 +19539,7 @@
 		)
 		(uuid "589bd264-5e41-4419-bd61-9425d12bc542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.9959 152.4 0)
+			(at 140.6459 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19974,7 +19991,7 @@
 	)
 	(global_label "PCH_SYSPWROK"
 		(shape input)
-		(at 213.36 132.08 90)
+		(at 187.96 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19984,7 +20001,7 @@
 		)
 		(uuid "6d6fdb2f-17c0-4a12-88f5-2c169c079a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 114.1572 90)
+			(at 187.96 116.6972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20106,7 +20123,7 @@
 	)
 	(global_label "ESPI_IO1_BMC"
 		(shape input)
-		(at 165.1 167.64 180)
+		(at 158.75 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20116,7 +20133,7 @@
 		)
 		(uuid "73915a44-a8c9-4e4c-a52f-3c226c0a7239")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8101 167.64 0)
+			(at 142.4601 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20282,7 +20299,7 @@
 	)
 	(global_label "+5V_S5"
 		(shape input)
-		(at 210.82 132.08 90)
+		(at 185.42 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20292,7 +20309,7 @@
 		)
 		(uuid "7fb7b4c1-d916-4bf8-bcca-3fe5c5255430")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 125.2243 90)
+			(at 185.42 127.7643 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20502,7 +20519,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK11-"
 		(shape input)
-		(at 220.98 144.78 270)
+		(at 195.58 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20512,7 +20529,7 @@
 		)
 		(uuid "8e11bc03-b370-42de-80bf-d5755d2f2fcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 168.8714 90)
+			(at 195.58 171.4114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,7 +20673,7 @@
 	)
 	(global_label "AZ_SDOUT_R"
 		(shape input)
-		(at 218.44 132.08 90)
+		(at 193.04 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20666,7 +20683,7 @@
 		)
 		(uuid "95f3a15d-d452-46e4-b2c7-f30313fb8dd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 117.4834 90)
+			(at 193.04 120.0234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20898,7 +20915,7 @@
 	)
 	(global_label "ME_RECOVERY_BMC"
 		(shape input)
-		(at 223.52 132.08 90)
+		(at 198.12 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20908,7 +20925,7 @@
 		)
 		(uuid "b033c8ad-01c9-4d10-a2fe-3d220cf0167c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 110.9521 90)
+			(at 198.12 113.4921 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,7 +21157,7 @@
 	)
 	(global_label "GPU_MACO_EN"
 		(shape input)
-		(at 215.9 144.78 270)
+		(at 190.5 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21150,7 +21167,7 @@
 		)
 		(uuid "bc3e3fde-5936-44d8-b4c5-b71b34080a69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 161.1909 90)
+			(at 190.5 163.7309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21316,7 +21333,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK1+"
 		(shape input)
-		(at 165.1 134.62 180)
+		(at 158.75 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21326,7 +21343,7 @@
 		)
 		(uuid "c2ea67a7-9081-4f54-a089-be3a057878bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2181 134.62 0)
+			(at 135.8681 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21404,7 +21421,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK5-"
 		(shape input)
-		(at 165.1 142.24 180)
+		(at 158.75 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21414,7 +21431,7 @@
 		)
 		(uuid "c6123827-bdea-47da-9bd9-1075487742fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2181 142.24 0)
+			(at 135.8681 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21448,7 +21465,7 @@
 	)
 	(global_label "SMLINK1_CLK"
 		(shape input)
-		(at 228.6 144.78 270)
+		(at 203.2 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21458,7 +21475,7 @@
 		)
 		(uuid "cbb7ce1b-e5f1-4bd9-8ad6-154582c65b17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 160.4047 90)
+			(at 203.2 162.9447 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21646,7 +21663,7 @@
 	)
 	(global_label "ESPI_IO0_BMC"
 		(shape input)
-		(at 165.1 165.1 180)
+		(at 158.75 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21656,7 +21673,7 @@
 		)
 		(uuid "d3918f15-c314-46ba-bc57-f906b70bbefb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8101 165.1 0)
+			(at 142.4601 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21778,7 +21795,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK11+"
 		(shape input)
-		(at 223.52 144.78 270)
+		(at 198.12 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21788,7 +21805,7 @@
 		)
 		(uuid "db357585-d95e-4e88-9980-2745b2726f74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 168.8714 90)
+			(at 198.12 171.4114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21844,7 +21861,7 @@
 	)
 	(global_label "PCIE_X8_X4_PRSNT#"
 		(shape input)
-		(at 228.6 132.08 90)
+		(at 203.2 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21854,7 +21871,7 @@
 		)
 		(uuid "e01e39c8-6a63-4254-9f0d-28d872e055c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 109.7426 90)
+			(at 203.2 112.2826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21866,7 +21883,7 @@
 	)
 	(global_label "PWRBTN#"
 		(shape input)
-		(at 220.98 132.08 90)
+		(at 195.58 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21876,7 +21893,7 @@
 		)
 		(uuid "e07dca7a-98da-49b0-b473-62b587b76c9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 120.2653 90)
+			(at 195.58 122.8053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21910,7 +21927,7 @@
 	)
 	(global_label "SIO_SML1ALERT#"
 		(shape input)
-		(at 218.44 144.78 270)
+		(at 193.04 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21920,7 +21937,7 @@
 		)
 		(uuid "e28ce59b-87fa-4b3f-9bb2-ff59dcb9aadc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 163.5494 90)
+			(at 193.04 166.0894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21998,7 +22015,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK1-"
 		(shape input)
-		(at 165.1 137.16 180)
+		(at 158.75 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22008,7 +22025,7 @@
 		)
 		(uuid "e788cb24-a9c4-47b6-bd6b-e3cc2125ddf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2181 137.16 0)
+			(at 135.8681 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,7 +22059,7 @@
 	)
 	(global_label "ESPI_CS0#_BMC"
 		(shape input)
-		(at 165.1 149.86 180)
+		(at 158.75 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22052,7 +22069,7 @@
 		)
 		(uuid "e9afc7be-ce67-4d31-aa0e-5e96bf984874")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.9959 149.86 0)
+			(at 140.6459 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22262,7 +22279,7 @@
 	)
 	(global_label "PCIe_CPU_REFCLK5+"
 		(shape input)
-		(at 165.1 144.78 180)
+		(at 158.75 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22272,7 +22289,7 @@
 		)
 		(uuid "fa073c72-39c7-461d-89cf-9c958a680150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2181 144.78 0)
+			(at 135.8681 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22466,7 +22483,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
-		(at 223.52 137.16 270)
+		(at 198.12 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22475,7 +22492,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ddae3e-3ac9-4570-a864-cf7fb8fa9845")
 		(property "Reference" "J6"
-			(at 208.28 137.1599 90)
+			(at 182.88 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22484,7 +22501,7 @@
 			)
 		)
 		(property "Value" "Conn_02x10_Top_Bottom"
-			(at 208.28 139.6999 90)
+			(at 182.88 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22493,7 +22510,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
-			(at 223.52 137.16 0)
+			(at 198.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22502,7 +22519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 137.16 0)
+			(at 198.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22511,7 +22528,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 137.16 0)
+			(at 198.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24389,7 +24406,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
-		(at 190.5 104.14 270)
+		(at 184.15 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24398,7 +24415,7 @@
 		(fields_autoplaced yes)
 		(uuid "aedfdbc8-5675-4b2e-a7e3-a74edb5df3b7")
 		(property "Reference" "J8"
-			(at 175.26 104.1399 90)
+			(at 168.91 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24407,7 +24424,7 @@
 			)
 		)
 		(property "Value" "Conn_02x10_Odd_Even"
-			(at 175.26 106.6799 90)
+			(at 168.91 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24416,7 +24433,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
-			(at 190.5 104.14 0)
+			(at 184.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24425,7 +24442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 104.14 0)
+			(at 184.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24434,7 +24451,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 104.14 0)
+			(at 184.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25503,7 +25520,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 236.22 148.59 0)
+		(at 210.82 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25511,7 +25528,7 @@
 		(dnp no)
 		(uuid "e2c59474-7560-4c6a-9d5d-820025752c21")
 		(property "Reference" "#PWR011"
-			(at 236.22 154.94 0)
+			(at 210.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25520,7 +25537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 152.4 0)
+			(at 210.82 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25528,7 +25545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 148.59 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25537,7 +25554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 148.59 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25546,7 +25563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 148.59 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
