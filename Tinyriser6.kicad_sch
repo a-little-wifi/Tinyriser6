@@ -3200,16 +3200,17 @@
 						(type background)
 					)
 				)
-				(text "For Tiny6:\nM90q and P340 Tiny\nmaybe M90q gen 2 and P350,\nidk, don't have schematic :("
-					(at 0 64.77 0)
+				(text "by WifiCable"
+					(at -0.254 49.276 0)
 					(effects
 						(font
 							(size 1.27 1.27)
+							(color 255 255 194 1)
 						)
 					)
 				)
-				(text "Pulling BMC_DETECT# low will bifurcate the\nCPU x8 link into 2 x4 links for Tiny6\nuse lane 0-3 and 4-7 \n(Not available by default, pins\nwith @ aren't connected in retail config)"
-					(at 0 3.81 0)
+				(text "For Tiny6:\nM90q and P340 Tiny\nmaybe M90q gen 2 and P350,\nidk, don't have schematic :("
+					(at 0 64.77 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17880,6 +17881,28 @@
 			(justify left top)
 		)
 		(uuid "9f3ea705-b518-4080-942b-04dc2c9a6f06")
+	)
+	(text "Pulling BMC_DETECT# low will bifurcate the\nCPU x8 link into 2 x4 links for Tiny6\nuse lane 0-3 and 4-7 \n(Not available by default, pins\nwith @ aren't connected in retail config)"
+		(exclude_from_sim no)
+		(at 241.3 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07ed6038-1c21-4181-b6ce-ce6fb1e389b8")
+	)
+	(text "Note: CLKREQ# needs to be connected to GND to activate the clock signal.\nIf you're replacing the PCIe slot with an open-ended one,\nmake sure to account for longer cards where the presence pin is outside the slot.\nMaybe just hard-wire CLKREQ# to GND"
+		(exclude_from_sim no)
+		(at 133.35 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "911c19c8-1cc3-4683-aecd-b5f09ccab42d")
 	)
 	(global_label "PCIe_PCH_Rx3-"
 		(shape input)
