@@ -24374,7 +24374,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/23"
+	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/24"
 		(at 137.125 85.7 0)
 		(layer "B.Cu")
 		(uuid "e899516b-3715-4097-871a-297c3388eae3")
@@ -25356,7 +25356,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/23"
+	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/24"
 		(at 137.125 85.7 0)
 		(layer "B.Mask")
 		(uuid "656ddd60-ca94-4952-bf0a-bd6d76f649f4")
@@ -25369,7 +25369,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/23"
+	(gr_text "TinyRiser6 v1\nby WifiCable\n2025/05/24"
 		(at 137.275 85.8 0)
 		(layer "B.Mask")
 		(uuid "867b229f-83db-4dbe-8a0f-24b257051635")
