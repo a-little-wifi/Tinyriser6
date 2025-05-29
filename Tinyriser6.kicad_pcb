@@ -3230,7 +3230,7 @@
 		(sheetfile "Tinyriser6.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 45 -3.4)
+			(start 45 -3.3)
 			(end 45 4.7)
 			(stroke
 				(width 0.25)
@@ -3240,8 +3240,8 @@
 			(uuid "1d41eda6-099d-40d1-8076-8c25bd420c20")
 		)
 		(fp_line
-			(start 43 -3.8)
-			(end 44.6 -3.8)
+			(start 43 -3.7)
+			(end 44.6 -3.7)
 			(stroke
 				(width 0.25)
 				(type solid)
@@ -3260,8 +3260,8 @@
 			(uuid "f6062f51-f3b6-4f96-a9e3-c3c53c3da97b")
 		)
 		(fp_line
-			(start -44.6 -3.8)
-			(end -41.5 -3.8)
+			(start -44.6 -3.7)
+			(end -41.5 -3.7)
 			(stroke
 				(width 0.25)
 				(type solid)
@@ -3270,7 +3270,7 @@
 			(uuid "b3ee89a7-79fd-4497-b29d-6646e892c360")
 		)
 		(fp_line
-			(start -45 -3.4)
+			(start -45 -3.3)
 			(end -45 4.7)
 			(stroke
 				(width 0.25)
@@ -3291,9 +3291,9 @@
 			(uuid "fcffb489-d741-4566-90a0-346ab8d07cdd")
 		)
 		(fp_arc
-			(start 44.6 -3.8)
-			(mid 44.882843 -3.682843)
-			(end 45 -3.4)
+			(start 44.6 -3.7)
+			(mid 44.882843 -3.582843)
+			(end 45 -3.3)
 			(stroke
 				(width 0.25)
 				(type default)
@@ -3313,9 +3313,9 @@
 			(uuid "776e252c-5735-493a-b07a-eca3b93e05a4")
 		)
 		(fp_arc
-			(start -45 -3.4)
-			(mid -44.882843 -3.682843)
-			(end -44.6 -3.8)
+			(start -45 -3.3)
+			(mid -44.882843 -3.582843)
+			(end -44.6 -3.7)
 			(stroke
 				(width 0.25)
 				(type default)
@@ -9401,6 +9401,19 @@
 			(layer "User.4")
 			(uuid "49a45d39-e07c-4e06-94be-c333a952e8b3")
 		)
+		(fp_text user "by WifiCable"
+			(at -30.2 7.95 90)
+			(unlocked yes)
+			(layer "F.Cu")
+			(uuid "356357b5-82a2-44ad-9419-7b477f6452be")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.015)
+				)
+				(justify left bottom)
+			)
+		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.75 0)
 			(unlocked yes)
@@ -9542,6 +9555,39 @@
 				)
 				(justify left bottom)
 			)
+		)
+		(dimension
+			(type aligned)
+			(layer "User.5")
+			(uuid "47ad435d-eaa8-4df7-b065-51bd86c1b156")
+			(pts
+				(xy 204.17 85.25) (xy 205.63 85.25)
+			)
+			(height 13.9)
+			(gr_text "1.4600 mm"
+				(at 204.9 100.65 0)
+				(layer "User.5")
+				(uuid "47ad435d-eaa8-4df7-b065-51bd86c1b156")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 2)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
 		)
 		(dimension
 			(type aligned)
