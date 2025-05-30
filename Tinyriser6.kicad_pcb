@@ -17035,7 +17035,7 @@
 		(path "/4300a25b-f1ce-4941-b95c-922bdc9d12e2")
 		(sheetname "Root")
 		(sheetfile "Tinyriser6.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.522501)
 			(end 0.254725 0.522498)
@@ -19061,7 +19061,7 @@
 		(path "/7d67904c-2c8a-41a5-8647-1b1a3258500f")
 		(sheetname "Root")
 		(sheetfile "Tinyriser6.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254725 0.522499)
 			(end 0.254724 0.522499)
@@ -19278,7 +19278,7 @@
 		(path "/ca86072d-9548-4047-99ff-7e452d64d668")
 		(sheetname "Root")
 		(sheetfile "Tinyriser6.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254725 0.522499)
 			(end 0.254724 0.522498)
@@ -19495,7 +19495,7 @@
 		(path "/17982d24-64f7-49e0-8f58-10f7ee532fa1")
 		(sheetname "Root")
 		(sheetfile "Tinyriser6.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 -0.522499)
 			(end 0.254724 -0.522501)
