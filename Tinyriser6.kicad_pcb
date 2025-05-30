@@ -313,8 +313,6 @@
 	(net 162 "+12V_fan")
 	(net 163 "Taco_fan")
 	(net 164 "PWM_fan")
-	(net 165 "unconnected-(TP3-Pad1)")
-	(net 166 "unconnected-(TP7-Pad1)")
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "16346d2a-eab7-4da4-8b2e-eb1e5dcc2256")
@@ -8490,113 +8488,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-		(layer "F.Cu")
-		(uuid "66df57c8-676f-4af0-8ba2-3e5abca2b561")
-		(at 155.55 58.5)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "TP7"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "aa2d69a5-b568-4f60-9fe0-c93ac19b01ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 0 1.75 0)
-			(layer "F.Fab")
-			(uuid "d9d3430d-864b-4d9a-94e7-67cf5363319c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7160009-e898-4e3e-bea3-e3dace0aedc4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22559c8a-999d-4eb5-a636-4f588ac491c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5feed3ac-24db-4261-bfc7-7409ad5f9316")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/8b0f1f6e-b56e-4980-82d0-9b1b3737028d")
-		(sheetname "Root")
-		(sheetfile "Tinyriser6.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "3ec74d99-0cfe-4fef-a73e-055bb9f9af42")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "1f8bcfd3-807e-4a54-951d-97bcd9a98473")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.7 1.7)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 166 "unconnected-(TP7-Pad1)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "bbc47231-16db-47f8-a360-17cf34877acf")
-		)
-	)
 	(footprint "A_my_stuff:TinyRiser6"
 		(layer "F.Cu")
 		(uuid "672cd814-079e-4f18-bb6d-7c1a4e38a53b")
@@ -9404,7 +9295,8 @@
 		(fp_text user "by WifiCable"
 			(at -30.2 7.95 90)
 			(unlocked yes)
-			(layer "F.Cu")
+			(layer "F.Mask")
+			(hide yes)
 			(uuid "356357b5-82a2-44ad-9419-7b477f6452be")
 			(effects
 				(font
@@ -9716,7 +9608,7 @@
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 150 "PCH_SYSPWROK")
-			(pinfunction "PCH_SYSPOWEROK")
+			(pinfunction "PCH_SYSPWROK")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
 			(uuid "a83c9c30-c085-49f1-a918-d7b830411c82")
@@ -16068,113 +15960,6 @@
 			(fill solid)
 			(layer "F.Mask")
 			(uuid "938398a3-a2e3-4ae9-95dd-79f07b6ab591")
-		)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-		(layer "F.Cu")
-		(uuid "f03455cc-a028-4386-a2d2-d693f2d83377")
-		(at 155.55 55.45)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "TP3"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b25e5954-a1ff-4f84-bd73-b69b0ff4e9ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 0 1.75 0)
-			(layer "F.Fab")
-			(uuid "9dff1479-d1d8-4d55-a16b-c59f30f15f4a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ee69552-77ed-461c-8c5b-667d20015f3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6acaaa7-5b28-4db2-93cc-04b0594dd632")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8a01397-7a89-4433-abd8-85cccff173f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/100e36d5-8857-46c3-a538-4009df2b35cb")
-		(sheetname "Root")
-		(sheetfile "Tinyriser6.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "d52b3516-a470-46b5-99eb-835d0f7d432f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "ce16ae9f-58b9-4785-964a-7f3c3e89c465")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.7 1.7)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 165 "unconnected-(TP3-Pad1)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "bd159550-2f98-48a6-bee0-d02f925c618d")
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Horizontal"
@@ -25286,18 +25071,6 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "GND"
-		(at 154.45 59.15 0)
-		(layer "B.SilkS")
-		(uuid "0b696e92-b03a-4ce7-8366-7635258b2fcc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "PWM"
 		(at 222.3 66.95 0)
 		(layer "B.SilkS")
@@ -25898,18 +25671,6 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "+3V3"
-		(at 154.45 56.05 0)
-		(layer "B.SilkS")
-		(uuid "af4809c5-f558-4459-90aa-1dec55e1a250")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "AZ_SDOUT"
 		(at 174.15 39.275 337.5)
 		(layer "B.SilkS")
@@ -26199,30 +25960,6 @@
 		(at 144.6 72.35 0)
 		(layer "F.SilkS")
 		(uuid "98dbd967-6316-4a7e-bb56-23bc606faa88")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 154.25 60.65 0)
-		(layer "F.SilkS")
-		(uuid "b577a59f-e03b-4e1a-9bc5-cdda99ac9002")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+3V3"
-		(at 154.25 57.6 0)
-		(layer "F.SilkS")
-		(uuid "d1fc74f0-9ec9-42cc-842e-214672fcb606")
 		(effects
 			(font
 				(size 1 1)

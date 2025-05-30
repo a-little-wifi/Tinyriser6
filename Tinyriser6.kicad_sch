@@ -10249,108 +10249,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -14634,16 +14532,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 22.86) (xy 140.97 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b54d8b8-d5f4-4d13-a3fa-81a14b3b733c")
-	)
-	(wire
-		(pts
 			(xy 363.22 34.29) (xy 365.76 34.29)
 		)
 		(stroke
@@ -15674,16 +15562,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 29.21) (xy 140.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ec00a74-f51d-4edb-95b0-9aa1352429b3")
-	)
-	(wire
-		(pts
 			(xy 92.71 87.63) (xy 97.79 87.63)
 		)
 		(stroke
@@ -16611,16 +16489,6 @@
 			(type default)
 		)
 		(uuid "a9abd80c-62ad-4ba2-8b7a-fe7bc87b991f")
-	)
-	(wire
-		(pts
-			(xy 135.89 29.21) (xy 135.89 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c507bf-263a-4ebf-bb79-828a5ce8c8ec")
 	)
 	(wire
 		(pts
@@ -21397,28 +21265,6 @@
 			)
 		)
 	)
-	(global_label "+3V3"
-		(shape input)
-		(at 135.89 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c465cba9-04db-4fa6-867e-4848d04820cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.9042 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCIe_CPU_REFCLK5-"
 		(shape input)
 		(at 158.75 106.68 180)
@@ -22403,79 +22249,6 @@
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 22.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "100e36d5-8857-46c3-a538-4009df2b35cb")
-		(property "Reference" "TP3"
-			(at 147.32 22.225 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 147.32 24.765 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 142.24 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0c139b9-4c6d-40d1-8c61-7d5b19536dd8")
-		)
-		(instances
-			(project "Tinyriser6"
-				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-			(project "TinyRiser"
-				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -23995,79 +23768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b0f1f6e-b56e-4980-82d0-9b1b3737028d")
-		(property "Reference" "TP7"
-			(at 147.32 28.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 31.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 142.24 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2160bbee-6743-41db-99c4-80d874da0ae2")
-		)
-		(instances
-			(project "Tinyriser6"
-				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-			(project "TinyRiser"
-				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Bus_M.2_Socket_M")
 		(at 67.31 74.93 180)
 		(unit 1)
@@ -24808,78 +24508,6 @@
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d69644f5-b188-4177-b6cc-03f951776ec6")
-		(property "Reference" "#PWR04"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41127413-3e5b-4a55-bfc0-098da4b87ce0")
-		)
-		(instances
-			(project "Tinyriser6"
-				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "TinyRiser"
-				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
