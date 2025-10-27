@@ -10,6 +10,7 @@ Compatible with M90q gen 1 & 2, P340 and P350 Tiny (M70q and M80q don't have the
 - USB 2.0 port
 - Fan header
 - Other random riser slot IO breakout (for science)
+- Plug and play, no mainboard modification necessary
 
 <img src='docpics/front3d.png' width=80%/>
 <img src='docpics/back3d.png' width=80%/>
