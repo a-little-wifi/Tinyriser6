@@ -16,8 +16,8 @@ Compatible with M90q gen 1 & 2, P340 and P350 Tiny (M70q and M80q don't have the
 
 > front and back in 3D render  
 
-<img src='docpics/tinyriser6-front-irl.jpg' width=80%/>
-<img src='docpics/tinyriser6-back-irl.jpg' width=80%/>
+<img src='docpics/Tinyriser6-front-irl.jpg' width=80%/>
+<img src='docpics/Tinyriser6-back-irl.jpg' width=80%/>
 
 > front and back in real life
 
