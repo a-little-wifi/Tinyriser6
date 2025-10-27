@@ -46,7 +46,7 @@ The last 2 modes require some kind of fan controller module plugged into the pro
 
 ## Thank you
 
-I want to say thank you to everyone for the kind words about my first riser design, I never expected it to reach so far and get so much interest. I originally made it just because I wanted to know if it would work and because I needed a riser for my M720q anyway (would you believe I don't own or have even ever seen an stock Lenovo riser?).  
+I want to say thank you to everyone for the kind words about my first riser design, I never expected it to reach so far and get so much interest. I originally made it just because I wanted to know if it would work and because I needed a riser for my M720q anyway (would you believe I don't own or have even ever seen a stock Lenovo Tiny5 riser?).  
 The experience has had its ups and downs, it turned out I was nowhere near prepared to be handling sales, there's been a few people trying to take credit for my work, and life has been throwing one thing after the other at me, there've been many times I felt bad about it (sorry for the occasional blunt or delayed replies), but in the end I'm still glad I could put it out there and that people have been able to enjoy it. I've even had people reach out suggesting different riser versions and requesting assistance with making modified designs, that's what I love to see. I hope the same will go for this one.
 
 So really, thank you to everyone who has expressed their appreciation for my work, and maybe even bought one from me directly during the short time that was possible. Your support really fills my little wifi heart with motivation to continue making my silly pieces of PCB art in my own way. I hope to keep delving into the depths of modern PC hardware architecture and to deliver more high quality designs with some soul of their own in the future.
@@ -55,7 +55,7 @@ This design is the result of everything I've learned from my experience with the
 
 ### Made with ❤ and ✨ by Wifi. I poured my heart, soul and passion into this, I hope you love it too!
 
-# Parts list: 
+## Parts list: 
 | part                | model                     | link                                                                                             |
 |---------------------|---------------------------|--------------------------------------------------------------------------------------------------|
 | PCIe slot           | UMAX 3183-10203P1T        | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html         |
