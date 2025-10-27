@@ -53,8 +53,6 @@ So really, thank you to everyone who has expressed their appreciation for my wor
 
 This design is the result of everything I've learned from my experience with the original Tinyariser and more. It includes an improved edge connector design that better follows industry standards, a short-circuit discouragement pictogram, several hidden cats, silly puns and more magic.
 
-You're welcome to place your own group orders if you know enough people who are interested in getting one of these risers, however please leave actual selling of this riser design to me and people I've specifically made agreements with.
-
 ### Made with ❤ and ✨ by Wifi. I poured my heart, soul and passion into this, I hope you love it too!
 
 ## Parts list: 
@@ -70,6 +68,8 @@ You're welcome to place your own group orders if you know enough people who are 
 ## JLC PCB ordering details:
 
 Please use the files from the v1 release, the main repo might be in the middle of version changes
+
+You're welcome to place your own group orders if you know enough people who are interested in getting one of these risers, however please leave actual selling of this riser design to me and people I've specifically made agreements with.
 
 ### Order it in purple Ò̶̖͗̅Ŕ̵͈ ̴̠̬̝̚E̷̖̘̐́̿L̴̢͉̠̕͝S̵͖̺̰̋̀Ē̶̫̾ͅ
 
