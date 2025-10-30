@@ -10876,6 +10876,12 @@
 		(uuid "988f2a3d-1bc8-4b0d-9262-89ac7a0c8b2b")
 	)
 	(junction
+		(at 224.79 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6744a8b-4b25-475f-a98b-10c856393f1a")
+	)
+	(junction
 		(at 311.15 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14215,6 +14221,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 49.53) (xy 236.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a7ea82-a961-4e7b-a3d9-1637cb3450fe")
+	)
+	(wire
+		(pts
 			(xy 368.3 105.41) (xy 363.22 105.41)
 		)
 		(stroke
@@ -14435,6 +14451,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b29a4f-06a8-446f-b55c-8c19b6998d7d")
+	)
+	(wire
+		(pts
 			(xy 311.15 125.73) (xy 312.42 125.73)
 		)
 		(stroke
@@ -14592,6 +14618,16 @@
 			(type default)
 		)
 		(uuid "ee77e184-d055-49c5-95a4-a6d4f6d12dee")
+	)
+	(wire
+		(pts
+			(xy 224.79 40.64) (xy 224.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0b9eba-9a88-467e-a877-a2366e8de63d")
 	)
 	(wire
 		(pts
@@ -14963,6 +14999,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_S5"
+		(shape input)
+		(at 241.3 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f0c1d4b-cca4-46b9-b044-262c8e19e699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.1557 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15385,7 +15443,7 @@
 			)
 		)
 	)
-	(global_label "+12V_fan"
+	(global_label "Fan_power"
 		(shape input)
 		(at 223.52 34.29 180)
 		(fields_autoplaced yes)
@@ -17035,7 +17093,7 @@
 			)
 		)
 	)
-	(global_label "+12V_fan"
+	(global_label "Fan_power"
 		(shape input)
 		(at 198.12 20.32 0)
 		(fields_autoplaced yes)
@@ -21247,6 +21305,73 @@
 			(project "Tinyriser6"
 				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 232.41 49.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb1b8111-8edd-4b26-a3c9-3c90a62e0f00")
+		(property "Reference" "JP2"
+			(at 232.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c711e619-4d02-49b6-833f-b5867bb856ed")
+		)
+		(pin "1"
+			(uuid "b6c13a11-37c1-4af0-993b-51859bc9b848")
+		)
+		(instances
+			(project "Tinyriser6"
+				(path "/318c1fce-5e4d-4445-84f9-9e261c1e352d"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
