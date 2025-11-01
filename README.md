@@ -44,6 +44,8 @@ The fan header has the same 3 modes as on the original Tinyriser:
 
 The last 2 modes require some kind of fan controller module plugged into the provided header. This has not been designed yet, but the possibility exists.
 
+**Update: v1.1 now has a '5V no PWM' mode available as well, adding an extra jumper from the 5V rail instead of the 12V rail. This 5V rail is always on though, so the fan would be powered even when the system is turned off.**  
+**Also be careful when soldering the 5V jumper, it's really close to a 12V pin from the PCIe slot.**
 
 ## Thank you
 
