@@ -59,13 +59,13 @@ This design is the result of everything I've learned from my experience with the
 ### Made with ❤ and ✨ by Wifi. I poured my heart, soul and passion into this, I hope you love it too!
 
 ## Parts list: 
-| part                | model                     | link                                                                                             |
-|---------------------|---------------------------|--------------------------------------------------------------------------------------------------|
-| PCIe slot           | UMAX 3183-10203P1T        | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html         |
-| Vertical M-key slot | Lotes APCI0110-P001A      | (available on aliexpress)                                                                        |
-| Alt M-key slot      | HOAUC HYCW19M-05NGFF-530B | https://jlcpcb.com/partdetail/HOAUC-HYCW19M_05NGFF530B/C41430861 (out of stock, but should work with JLC assmebly?) |
-| Screwpost           | YIYUAN SMTSOM340BTR       | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html                 |
-| USB port            | Jing 906-862A1118D10200   | https://www.lcsc.com/product-detail/C2763236.html (Warning: EasyEDA footprint pinout is reversed)|
+| part                    | model                     | link                                                                                             |
+|-------------------------|---------------------------|--------------------------------------------------------------------------------------------------|
+| PCIe slot               | UMAX 3183-10203P1T        | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html         |
+| Vertical M-key slot     | HOAUC HYCW19M-05NGFF-530B | https://www.lcsc.com/product-detail/C41430861.html                                               |
+| Alt Vertical M-key slot | Lotes APCI0110-P001A      | (available on aliexpress)                                                                        |
+| Screwpost               | YIYUAN SMTSOM340BTR       | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html                 |
+| USB port                | Jing 906-862A1118D10200   | https://www.lcsc.com/product-detail/C2763236.html (Warning: EasyEDA footprint pinout is reversed)|
 
 
 ## JLC PCB ordering details:
